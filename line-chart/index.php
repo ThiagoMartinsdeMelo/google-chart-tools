@@ -46,7 +46,6 @@
 
 				// Draws 400x240 chart with specified title
 				chart.draw(data, {width: 600, height: 300, title: 'Gastos do mês', colors: ['red']});
-
 			 }
 
 		</script>
