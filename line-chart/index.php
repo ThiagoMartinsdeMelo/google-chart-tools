@@ -45,14 +45,14 @@
 				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
 
 				// Draws 400x240 chart with specified title
-				chart.draw(data, {width: 600, height: 300, title: 'Gastos do mês', colors: ['red']});
+				chart.draw(data, {width: 600, height: 300, title: 'Gastos do mês', colors: ['red'], curveType: 'function'});
 			 }
-
 		</script>
     </head>
     <body>
     	<h1>Gastos por mês</h1>
     	<div id="chart_div"></div>  	
     </body>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>      
 </html>
