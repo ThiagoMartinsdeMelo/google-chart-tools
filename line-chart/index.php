@@ -27,19 +27,19 @@
 				
 				// February data
 				data.setValue(1, 0, 'Fevereiro');
-             	data.setValue(1, 1, 21870.0)
+				data.setValue(1, 1, 21870.0)
 
 				// March data
-             	data.setValue(2, 0, 'Março');
-             	data.setValue(2, 1, 22250.0);
+				data.setValue(2, 0, 'Março');
+				data.setValue(2, 1, 22250.0);
 
-             	// April data
-             	data.setValue(3, 0, 'Abril');
-             	data.setValue(3, 1, 21769.0);
+				// April data
+				data.setValue(3, 0, 'Abril');
+				data.setValue(3, 1, 21769.0);
 
-             	// May data
-             	data.setValue(4, 0, 'Maio');
-             	data.setValue(4, 1, 23234.0);
+				// May data
+				data.setValue(4, 0, 'Maio');
+				data.setValue(4, 1, 23234.0);
 
 				// Create chart
 				var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
