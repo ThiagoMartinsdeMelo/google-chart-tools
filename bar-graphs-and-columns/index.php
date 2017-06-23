@@ -37,37 +37,37 @@
 			 	data.setValue(3, 0, 'Abril');
 			 	data.setValue(3, 1, 20349);
 
-        		// May
-        		data.setValue(4, 0, 'Maio');
-        		data.setValue(4, 1, 23495);
+			 	// May
+			 	data.setValue(4, 0, 'Maio');
+			 	data.setValue(4, 1, 23495);
 
-        		// June
-        		data.setValue(5, 0, 'Junho');
-        		data.setValue(5, 1, 17331);
+			 	// June
+			 	data.setValue(5, 0, 'Junho');
+			 	data.setValue(5, 1, 17331);
 
-        		// July
-        		data.setValue(6, 0, 'Julho');
-        		data.setValue(6, 1, 12384);
+			 	// July
+			 	data.setValue(6, 0, 'Julho');
+			 	data.setValue(6, 1, 12384);
 
-        		// August
-        		data.setValue(7, 0, 'Agosto');
-        		data.setValue(7, 1, 13495);
+			 	// August
+			 	data.setValue(7, 0, 'Agosto');
+			 	data.setValue(7, 1, 13495);
 
-        		// September	
-        		data.setValue(8, 0, 'Setembro');
-        		data.setValue(8, 1, 13999);
+			 	// September
+			 	data.setValue(8, 0, 'Setembro');
+			 	data.setValue(8, 1, 13999);
 
-        		// October
-        		data.setValue(9, 0, 'Outubro');
-        		data.setValue(9, 1, 20230);
+			 	// October
+			 	data.setValue(9, 0, 'Outubro');
+			 	data.setValue(9, 1, 20230);
 
-        		// November
-        		data.setValue(10, 0, 'Novembro');
-        		data.setValue(10, 1, 22348);
+			 	// November
+			 	data.setValue(10, 0, 'Novembro');
+			 	data.setValue(10, 1, 22348);
 
-        		// December
-        		data.setValue(11, 0, 'Dezembro');
-        		data.setValue(11, 1, 21230);
+			 	// December
+			 	data.setValue(11, 0, 'Dezembro');
+			 	data.setValue(11, 1, 21230);
 
 			 	var valorFormatter = new google.visualization.NumberFormat({ 
 			 		decimalSymbol:',', prefix:'R$ '
@@ -75,9 +75,9 @@
 
 			 	valorFormatter.format(data, 1); valorFormatter.format(data, 1);
 
-  				var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+			 	var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
 
-  				chart.draw(data, {
+			 	chart.draw(data, {
             		width: 900, height: 300, title: 'Gastos', vAxis: {title: 'Valor'}
             	});
 			 }
