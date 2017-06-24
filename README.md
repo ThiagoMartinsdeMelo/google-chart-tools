@@ -34,7 +34,13 @@
 
 ![Bar Graphs and Columns](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/bar-graphs-and-columns/img/bar-graphs-columns.png)
 
+#### Pie Chart
 
+<p>The information we will show in our pie chart needs to be stored somewhere and it is also necessary to inform that the chart should be able to show a type of expense and a value associated with it.</p>
+
+[Pie Chart](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/pie-chart/index.php)
+
+<p>The Google Chart API gives us a way to do this using a DataTable.</p>
 
 
 
