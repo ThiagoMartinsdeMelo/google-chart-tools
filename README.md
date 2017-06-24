@@ -24,7 +24,13 @@
 
 <p>Two lines have been created that will be positioned on the X axis. This will use the <strong>addColumn</strong> method. Any column added from now on will be placed on the X-axis. One is also added on the chart.</p>
 
+![Line Chart 2 Lines](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/line-chart-2-lines/img/line-chart-2.png)
 
+#### Bar Graphs and Columns
+
+<p>Constructing a column chart, where each column corresponds to one month of the year. So, with the columns positioned side by side, we have a way of comparing the values.</p>
+
+[Bar Graphs and Columns](https://developers.google.com/apis-explorer/?csw=1#p/)
 
 
 
