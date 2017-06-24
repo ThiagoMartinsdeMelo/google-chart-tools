@@ -54,9 +54,15 @@
 
 ![Intensity Chart](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/intensity-chart/img/intesity.png) 
 
-<p>Geo Chart with some [brazilian](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/intensity-chart/brasil.php) states:</p>
+<p>Geo Chart with some brazilian states:</p>
 
-![Intensity Chart](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/intensity-chart/img/brasil.png) 
+[Brazilian states](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/intensity-chart/brasil.php)
+
+![Intensity Chart](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/intensity-chart/img/brasil.png)
+
+#### Remote Data Source
+
+
 
 
 
