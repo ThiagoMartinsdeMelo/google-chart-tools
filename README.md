@@ -62,6 +62,13 @@
 
 #### Remote Data Source
 
+The <strong>ChartWrapper</strong> object is used to configure the URL at which the library should fetch the data that will make up the chart.
+
+[Remote Data Source](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/remote-data-source/index.php)
+
+This configuration was done through the <strong>dataSourceUrl</strong> property of the object we passed as a parameter when invoking ChartWrapper. In the documentation this functionality is referenced as <strong>remote data source </strong>.
+
+![Remote](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/intensity-chart/img/brasil.png)
 
 
 
