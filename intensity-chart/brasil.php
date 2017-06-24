@@ -9,27 +9,26 @@
 		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
 		<!-- loading google libraries -->
 		<script type='text/javascript'>
-			google.load('visualization', '1', {packages:['intensitymap']});
+			google.load('visualization', '1', {'packages': ['geochart']});
 			google.setOnLoadCallback(desenhaGrafico);
+
 			function desenhaGrafico() {
 				var data = new google.visualization.DataTable();
-				data.addColumn('string', '', 'País');
-				data.addColumn('number', 'Área (1000 km2)');
-				data.addColumn('number', 'População (mil)');
+				data.addColumn('string', 'Estado');
+				data.addColumn('number', 'População (hab)');
 				data.addRows(3);
-				data.setValue(0, 0, 'BR');//Brasil
-				data.setValue(0, 1, 8515);
-				data.setValue(0, 2, 190732);
-				data.setValue(1, 0, 'CO');//Colômbia
-				data.setValue(1, 1, 1138);
-				data.setValue(1, 2, 45986);
-				data.setValue(2, 0, 'PE');//Peru
-				data.setValue(2, 1, 1285);
-				data.setValue(2, 2, 29461);
-				var chart = new google.visualization.IntensityMap(document.getElementById('chart_div'));
-				chart.draw(data, {region: 'south_america', height: 300, width: 400});
-			}
-		</script>
+
+				data.setValue(0, 0, 'BR-SP');
+				data.setValue(0, 1, 41589892);
+				data.setValue(1, 0, 'BR-ES');
+				data.setValue(1, 1, 3547013);
+				data.setValue(2, 0, 'BR-PB');
+				data.setValue(2, 1, 3999415);				
+
+				var geochart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+				geochart.draw(data, {region : 'BR', resolution: 'provinces'});
+			};
+      </script>
     </head>
     <body>
     	<h1>Gráfico de Itensidade</h1>
