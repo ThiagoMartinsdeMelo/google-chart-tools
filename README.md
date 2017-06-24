@@ -52,8 +52,11 @@
 
 <p>A Google Chart API nos disponibiliza uma maneira de fazer isso usando um <strong>DataTable</strong>.</p>
 
-![Intensity Chart](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/pie-chart/img/pie-chart-details.png) 
+![Intensity Chart](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/intensity-chart/img/intesity.png) 
 
+<p>Geo Chart with some Brazilian states:</p>
+
+![Intensity Chart](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/intensity-chart/img/intesity.png) 
 
 
 
