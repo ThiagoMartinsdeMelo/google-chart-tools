@@ -42,6 +42,18 @@
 
 <p>The Google Chart API gives us a way to do this using a DataTable.</p>
 
+![Pie Chart](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/pie-chart/img/pie-chart-details.png) 
+
+#### Intensity Chart
+
+<p>The information we will display on our Intensity Map must be stored somewhere. It is also necessary to inform that the chart should be able to show a country.</p>
+
+[Intensity Chart](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/intensity-chart/index.php)
+
+<p>A Google Chart API nos disponibiliza uma maneira de fazer isso usando um <strong>DataTable</strong>.</p>
+
+![Intensity Chart](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/pie-chart/img/pie-chart-details.png) 
+
 
 
 
