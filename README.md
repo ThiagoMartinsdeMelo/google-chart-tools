@@ -30,7 +30,14 @@
 
 <p>Constructing a column chart, where each column corresponds to one month of the year. So, with the columns positioned side by side, we have a way of comparing the values.</p>
 
-[Bar Graphs and Columns](https://developers.google.com/apis-explorer/?csw=1#p/)
+[Bar Graphs and Columns](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/bar-graphs-and-columns/index.php)
+
+![Bar Graphs and Columns](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/bar-graphs-and-columns/img/bar-graphs-columns.png)
+
+
+
+
+
 
 
 
