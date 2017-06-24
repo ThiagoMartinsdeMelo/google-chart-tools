@@ -14,5 +14,8 @@
 
 <p>In the example, we will draw a graph of lines where, on the horizontal (or X) axis, we will place the months of the year and, on the vertical axis (or Y), we will put the values spent in that month.</p>
 
+![Line Chart](https://github.com/ThiagoMartinsdeMelo/google-chart-tools/blob/master/line-chart/img/line_chart.png)
+
+
 
 
